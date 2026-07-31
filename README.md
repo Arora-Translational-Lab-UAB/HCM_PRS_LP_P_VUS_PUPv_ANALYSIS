@@ -11,7 +11,6 @@ This repository contains the complete analytical pipeline, computational scripts
 ## Repository Structure & Master Execution
 * `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
 * `Codes/Code_for_Association_Downstream_Manuscript_07312026.R`: Comprehensive R script containing data wrangling, logistic regression, interval-censored survival analysis (`icenReg`), ancestry stratification, and figure generation routines.
-* 
 * `environment/`: Environment configuration containing Dockerfile and `environment.yml`.
 
 ## System & Software Requirements
