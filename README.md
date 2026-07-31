@@ -12,6 +12,7 @@ This repository contains the complete analytical pipeline, computational scripts
 * `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
 * `Codes/Code_for_Association_Downstream_Manuscript_07312026.R`: Comprehensive R script containing data wrangling, logistic regression, interval-censored survival analysis (`icenReg`), ancestry stratification, and figure generation routines.
 * `environment/`: Environment configuration containing Dockerfile and `environment.yml`.
+* `LP/P/VUS/PUPv Carriers Generation`: [https://github.com/akhilpampana/Pipeline_LP_P_Circ_GPM_AoU/archive/refs/tags/v1.0.zip](https://github.com/akhilpampana/Pipeline_LP_P_Circ_GPM_AoU/archive/refs/tags/v1.0.zip)
 
 ## System & Software Requirements
 * **Languages:** Bash, R (v4.0+)
