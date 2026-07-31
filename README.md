@@ -9,10 +9,9 @@ This repository contains the complete analytical pipeline, computational scripts
 * **Base Data Sources:** Summary statistics from Biobank Japan, the Million Veteran Program (MVP), and European case-control meta-analyses.
 
 ## Repository Structure & Master Execution
-* `run`: Master shell script that orchestrates the execution sequence.
-* `code/Codes_to_run/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
-* `code/Codes_to_run/Code_for_Association_Downstream_Manuscript_07242026.R`: Comprehensive R script containing data wrangling, logistic regression, interval-censored survival analysis (`icenReg`), ancestry stratification, and figure generation routines.
-* `data/Summary_Statistics/`: Directory containing input summary statistics and harmonized datasets.
+* `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
+* `Codes/Code_for_Association_Downstream_Manuscript_07312026.R`: Comprehensive R script containing data wrangling, logistic regression, interval-censored survival analysis (`icenReg`), ancestry stratification, and figure generation routines.
+* `data/Summary_Statistics/`: Directory containing input summary statistics and harmonized datasets. (Sample Subset)
     * `GCST90435254_07242026.txt`
     * `META_BBJ_07242026.txt`
     * `meta_mvp_meta_bbj_v1_07242026.txt`
@@ -21,8 +20,6 @@ This repository contains the complete analytical pipeline, computational scripts
 * `data/Genotypes/`: Directory containing genotype data files (~136.5 MB).
 * `data/LD_reference/`: Directory containing linkage disequilibrium (LD) reference panels (~204.45 MB).
 * `environment/`: Environment configuration containing Dockerfile and `environment.yml`.
-* `metadata/`: Metadata configurations including `metadata.yml`.
-* `results/output/`: Directory designated for generated outputs and pipeline results.
 
 ## System & Software Requirements
 * **Languages:** Bash, R (v4.0+)
@@ -30,16 +27,11 @@ This repository contains the complete analytical pipeline, computational scripts
 * **R Packages:** `parallel`, `fmsb`, `pROC`, `dplyr`, `stats`, `icenReg`, `purrr`, `doParallel`, `tidyr`, `knitr`, `kableExtra`, `ggplot2`, `cowplot`, `ggpubr`, `gridExtra`, `plotrix`
 
 ## Execution Instructions
-To run the full reproducible pipeline from scratch via the master script, execute:
-```bash
-bash run
-```
+The provided scripts serve as a static analytical record and reference implementation for the manuscript pipelines. They are structured for inspection and modular execution across computing environments rather than automated batch invocation.
 
 ## Citation
 If you use this pipeline or data in your research, please cite our corresponding publication: 
-
 Bal et al, 2026: Polygenic Risk Modifies Penetrance and Outcomes in Hypertrophic Cardiomyopathy: Insights from a US-Based Multi-Ancestry Cohort
-
 
 ## Contact
 For questions, feedback, or issues regarding this repository, please contact Akhil Pampana at the University of Alabama at Birmingham.
