@@ -10,7 +10,7 @@ This repository contains the complete analytical pipeline, computational scripts
 
 ## Pipeline Architecture & Analytical Workflow
 The diagram below illustrates the comprehensive workflow for multi-ancestry polygenic risk score (PRS) construction, training, testing, validation, and downstream clinical analysis:
-![Pipeline Workflow](Pipeline.jpg)
+![Pipeline Workflow](Main_manuscript_Figure_1.png)
 
 ## Repository Structure & Master Execution
 * `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
@@ -28,7 +28,7 @@ The provided scripts serve as a static analytical record and reference implement
 
 ## Citation
 If you use this pipeline or data in your research, please cite our corresponding publication: 
-Bal et al, 2026: Polygenic Risk Modifies Penetrance and Outcomes in Hypertrophic Cardiomyopathy: Insights from a US-Based Multi-Ancestry Cohort
+Bal et al, 2026: A multi-ancestry polygenic risk score improves stratification in patients with hypertrophic cardiomyopathy
 
 ## Contact
 For questions, feedback, or issues regarding this repository, please contact Akhil Pampana at the University of Alabama at Birmingham.
