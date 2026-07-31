@@ -11,14 +11,7 @@ This repository contains the complete analytical pipeline, computational scripts
 ## Repository Structure & Master Execution
 * `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
 * `Codes/Code_for_Association_Downstream_Manuscript_07312026.R`: Comprehensive R script containing data wrangling, logistic regression, interval-censored survival analysis (`icenReg`), ancestry stratification, and figure generation routines.
-* `data/Summary_Statistics/`: Directory containing input summary statistics and harmonized datasets. (Sample Subset)
-    * `GCST90435254_07242026.txt`
-    * `META_BBJ_07242026.txt`
-    * `meta_mvp_meta_bbj_v1_07242026.txt`
-    * `MVP_HOCM_07242026.txt`
-    * `MVP_NHCM_07242026.txt`
-* `data/Genotypes/`: Directory containing genotype data files (~136.5 MB).
-* `data/LD_reference/`: Directory containing linkage disequilibrium (LD) reference panels (~204.45 MB).
+* 
 * `environment/`: Environment configuration containing Dockerfile and `environment.yml`.
 
 ## System & Software Requirements
