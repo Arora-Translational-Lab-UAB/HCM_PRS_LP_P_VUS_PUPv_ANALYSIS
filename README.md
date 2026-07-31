@@ -10,7 +10,7 @@ This repository contains the complete analytical pipeline, computational scripts
 
 ## Pipeline Architecture & Analytical Workflow
 The diagram below illustrates the comprehensive workflow for multi-ancestry polygenic risk score (PRS) construction, training, testing, validation, and downstream clinical analysis:
-![Pipeline Workflow](image_06a466.jpg)
+!Pipeline.jpg
 
 ## Repository Structure & Master Execution
 * `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
