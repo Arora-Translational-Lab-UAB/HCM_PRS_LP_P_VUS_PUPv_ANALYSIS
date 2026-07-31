@@ -4,13 +4,13 @@ This repository contains the complete analytical pipeline, computational scripts
 
 ## Overview
 * **Objective:** To construct and evaluate a multi-ancestry PRS for HCM using PRS-CSx and clumping-and-thresholding (C+T) frameworks, assessing disease penetrance, prevalence, lifetime incidence, ancestry-specific performance, and longitudinal cardiovascular outcomes.
-* **Testing Dataset:** All of Us Research Program (AoURP) (~258,361 participants across European, African, Admixed, and Asian ancestries).
+* **Testing Dataset:** All of Us Research Program (AoURP) (~258,361 participants across European, African, admixed, and Asian ancestries).
 * **Validation Cohort:** UK Biobank.
 * **Base Data Sources:** Summary statistics from Biobank Japan, the Million Veteran Program (MVP), and European case-control meta-analyses.
 
 ## Pipeline Architecture & Analytical Workflow
 The diagram below illustrates the comprehensive workflow for multi-ancestry polygenic risk score (PRS) construction, training, testing, validation, and downstream clinical analysis:
-!Pipeline.jpg
+![Pipeline Workflow](Pipeline.jpg)
 
 ## Repository Structure & Master Execution
 * `Codes/Code_for_PRScsx_C_T_Generation_07242026.sh`: Primary shell script executing PRScsx and C+T generation pipelines.
